@@ -1,0 +1,114 @@
+body {
+   display: flex;
+   justify-content: center;
+   font-family: 'Work Sans', sans-serif;
+   background-color: #eeeeee;
+}
+.container {
+    width: 40%;
+}
+
+.div-seemore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+.btn-seemore {
+    padding: 10px;
+    background-color:  #66ccff;
+    color: white;
+    font-weight: bold;
+    border: solid;
+    border-color:  #68c2f0;
+    border-radius: 4px;
+}
+.main-content {
+    background-color: #f0f0f0;
+    border: solid;
+    border-color:  #e4e4e4;
+    border-radius: 7px;
+    padding: 1px;
+    overflow: hidden;
+}
+.comment {
+    background-color: #ffffff;
+    border: solid;
+    border-color:  #f0f0f0;
+    border-radius: 6px 6px 0px 0px;
+    padding: 25px;
+    border-bottom-color:  #e4e4e4;
+}
+
+.img-avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.cmt-inner:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.cmt-left-div {
+    width: 12%;
+    float: left;
+}
+.cmt-right-div {
+    width: 85%;
+    float: left;
+}
+span.name {
+    font-weight: bold;
+    color:  #66ccff;
+}
+span.address {
+    color: #b0babf;
+    font-size: small;
+}
+span.time {
+    float: right;
+    color: #b0babf;
+    font-size: small;
+    font-weight: bold;
+}
+.sub-cmt {
+    background-color: #f7f7f7;
+    border: solid;
+    border-color:  #f0f0f0;
+    border-bottom: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.view-pre-cmt {
+    padding: 14px 30px 14px 30px;
+    color:  #66ccff;
+    font-weight: bold;
+}
+.post-cmt {
+    display: flex;
+    justify-content: flex-end;  
+    padding: 0px 20px 15px 20px;
+}
+.post-cmt-input {
+    width: 85%;
+    padding: 8px;
+    height: 20px;;
+}
+.sub-cmt-inner {
+    content: "";
+    display: table;
+    clear: both;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.post-cmt.end {
+    padding-top: 17px;
+    padding-left: 40px;
+}
+.img-avatar-sub {
+    height: 40px;
+    width: 40px;
+}
